@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Testes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="box-menu">
+        <ul class="menu">
+            <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+            <li style="--i:0;--clr:#ff2972;">
+                <a href="#"><ion-icon name="home"></ion-icon></a>
+            </li>
+            <li style="--i:1;--clr:#fee800;">
+                <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </li>
+            <li style="--i:2;--clr:#04fc43;">
+                <a href="#"><ion-icon name="settings-outline"></ion-icon></a>
+            </li>
+            <li style="--i:3;--clr:#fe00f1;">
+                <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+            </li>
+            <li style="--i:4;--clr:#00b0fe;">
+                <a href="#"><ion-icon name="key-outline"></ion-icon></a>
+            </li>
+            <li style="--i:5;--clr:#fea600;">
+                <a href="#"><ion-icon name="videocam-outline"></ion-icon></a>
+            </li>
+            <li style="--i:6;--clr:#a529ff;">
+                <a href="#"><ion-icon name="game-controller-outline"></ion-icon></a>
+            </li>
+            <li style="--i:7;--clr:#01bdab ;">
+                <a href="#"><ion-icon name="videocam-outline"></ion-icon></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="box-social">
+        <div class="card">
+            <div class="lines"></div>
+            <div class="imgBg">
+                <img src="img/Roo.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="details">
+                    <h2>Breno Smith <br><span>Senior UX/UI Designer</span></h2>
+                    <div class="data">
+                        <h3>342<br><span>Posts</span></h3>
+                        <h3>120k<br><span>Followers</span></h3>
+                        <h3>285<br><span>Following</span></h3>
+                    </div>
+                    <div class="actionBtn">
+                        <button>Follow</button>
+                        <button>Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu   = document.querySelector('.menu');
+        toggle.onclick = function() {
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
